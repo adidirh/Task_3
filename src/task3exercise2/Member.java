@@ -1,47 +1,30 @@
-package task3exercise2;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package wikits3;
+
+/**
+ *
+ * 1301154255
+ */
 
 public class Member {
 
-    // 1. Declare your private attributes here:
-    // NIM : .........................., 
-    // NAMA : ........................., 
-    //
-    //------------------- your code here-----------------------
-    
-    //---------------------------------------------------------
-    
-    // 2. Declare your 2 Constructor here:
-    // NIM : .........................., 
-    // NAMA : ........................., 
-    //
-    //------------------- your code here-----------------------
-    
-    //---------------------------------------------------------
-    
-    
-    // 3. Declare your Setter and Getter method here:
-    // NIM : .........................., 
-    // NAMA : ........................., 
-    //
-    //------------------- your code here-----------------------
-    
-    //---------------------------------------------------------
-    
-    
-    // 4. Create method toString() : String here:
-    // NIM : .........................., 
-    // NAMA : ........................., 
-    //
-    // returns String that contains member name, specialization, 
-    // and number of project worked  
-    // 
-    // example : "Member Alex specialized in Java Programming, 
-    //            worked on 5 project(s)"
+    Member(String alex) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+
     public String toString() {
-    //------------------- your code here-----------------------
+
         return null;
     
-    //---------------------------------------------------------
+
     }
 
 }
+
+    
+
