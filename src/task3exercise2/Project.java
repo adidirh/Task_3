@@ -1,6 +1,6 @@
 package task3exercise2;
 /**
- *1301154255wiki
+ *1301154255rizki
  */
 
 public class Project {
