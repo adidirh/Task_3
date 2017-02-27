@@ -1,30 +1,57 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package wikits3;
-
+package task3exercise2;
 /**
- *
- * 1301154255
+ *1301154255wiki
  */
-
 public class Member {
 
-    Member(String alex) {
-        throw new UnsupportedOperationException("Not supported yet.");
+
+    
+    private String name;
+    private String specialization;
+    private int projectWorked;
+    
+    
+    public Member(String name) {
+        this.name = name;
     }
 
-
-    public String toString() {
-
-        return null;
+    public Member(String name, String specialization) {
+        this.name = name;
+        this.specialization = specialization;
+    }
     
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSpecialization() {
+        return specialization;
+    }
+
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+    }
+
+    public int getProjectWorked() {
+        return projectWorked;
+    }
+
+    public void setProjectWorked(int projectWorked) {
+        this.projectWorked = projectWorked;
+    }
+    
+
+    public String toString() {
+    
+        String p = "Member " + name + " specialized in " + specialization + " and already worked on " + projectWorked + " projec(s)"; 
+        return p;
+    
+    
     }
 
 }
-
-    
-

@@ -1,38 +1,51 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package wikits3;
-
+package task3exercise2;
 /**
- *
- * 1301154255
+ *1301154255wiki
  */
-
-
 public class StartUp {
-
-    void addMember(Member m) {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
-
-    void createNewProject(String project1) {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
-
-    Project getProject(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
-
-    Member getMember(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
-
-    void releaseProject(Project p) {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
-
-  
     
+    private Member[] member = new Member[50];
+    private Project[] projectList = new Project [50];
+    private int nMember = 0;
+    private int nProject = 0;
+   
+    public void addMember (Member m)
+    {
+        this.member[nMember] = m;
+        nMember++;
+    }
+    
+    public Member getMember (int id)
+    {
+       return member[id];
+    }
+    
+    public void createNewProject (String projectName)
+    {
+        Project prj = new Project(projectName);
+        projectList[nProject] = prj;
+        nProject++;
+    }
+
+    public Project getProject (int id)
+    {
+        return projectList[id];
+    }
+
+    public void releaseProject (Project p)
+    {
+        p.releaseApp();
+    }
+    
+    public int getNumReleasedProject()
+    {
+        int numRelease = 0;
+        for (int i = 0; i < nProject; i++)
+            if (projectList[i].isReleased() != false)
+                numRelease += 1;
+        
+        return numRelease;
+                
+    }
+       
 }
