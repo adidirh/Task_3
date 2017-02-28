@@ -1,6 +1,6 @@
 package task3exercise2;
 /**
- *1301154255wiki
+ *
  */
 public class StartUp {
     

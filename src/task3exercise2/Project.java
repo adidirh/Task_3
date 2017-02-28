@@ -1,6 +1,6 @@
 package task3exercise2;
 /**
- *1301154255rizki
+ *
  */
 
 public class Project {
@@ -44,8 +44,8 @@ public class Project {
         else
             stat = "in progress";
             
-        String p = "Project " + projectName + " status is " + stat + " with team member of " + nTeam;
-        return p;
+         return  "Project " + projectName + " status is " + stat + " with team member of " + nTeam;
+       
     
     }
 }

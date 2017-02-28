@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package task3;
+package task3exercise1;
 
 /**
- *
- * @author GL552JX
+ *NIM 1 :1301154273
+ *NIM 2 :1301154255 
+ *NIM 3 :1301154203
  */
-public class Task3 {
+public class Driver{
 
     /**
      * @param args the command line arguments

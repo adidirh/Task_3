@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package task3;
+package task3exercise1;
 
 /**
  *
- * @author GL552JX
+ * 
  */
 public class Application {
     

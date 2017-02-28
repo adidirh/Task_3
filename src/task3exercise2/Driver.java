@@ -6,7 +6,9 @@
 package task3exercise2;
 
 /**
- *1301154255wiki
+ *NIM 1 :1301154273
+ *NIM 2 :1301154255 
+ *NIM 3 :1301154203
  */
 public class Driver {
 
