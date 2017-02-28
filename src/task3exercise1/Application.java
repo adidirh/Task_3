@@ -1,62 +1,40 @@
-package task3exercise1;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package task3;
 
+/**
+ *
+ * @author GL552JX
+ */
 public class Application {
-
-    // 1. Declare your private attributes here:
-    // NIM : 1301154273
-    // NAMA : Ridwan Hadiansyah
-    //
-    //------------------- your code here-----------------------
-    private String appName; 
+    
+private String appName;
     private int appSize;
     
-    //---------------------------------------------------------
-    // 2. Declare Constructor here:
-    // NIM : ..........................,
-    // NAMA : ........................., 
-    //
-    // Constructor initialize application name and size (MB)
-    //
-    //------------------- your code here-----------------------
-    public Application(String a, int b) {
-        appName = a;
-        appSize = b;
-    }
-    //---------------------------------------------------------
-    // 3. Declare your Setter and Getter method here:
-    // NIM : ..........................,
-    // NAMA : ........................., 
-    //
-    //------------------- your code here-----------------------
-     public String getAppName() {
-        return appName;
     
-    }
-
-    public void setAppName(String appName) {
+    public Application(String appName, int appSize) 
+    {
         this.appName = appName;
+        this.appSize = appSize;
     }
-
+    
     public int getAppSize() {
         return appSize;
     }
-    
-    public void setAppSize(int appSize) {    
+
+    public void setAppSize(int appSize) {
         this.appSize = appSize;
     }
-
-    //---------------------------------------------------------
-    // 4. Create method toString() : String here:
-    // NIM : ..........................,
-    // NAMA : ........................., 
-    //
-    // returns String that contains application name and application size
-    // 
-    // example : "Application name: App1, with size: 3MB"
+       
     public String toString() {
-        //------------------- your code here-----------------------
-        return "Application Name : "+appName + ", with size : " +appSize;
-        //---------------------------------------------------------
+        
+        String p = "Application Name : " + appName + ", With size : " + appSize;
+        return p;
+    
+  
     }
 
 }
